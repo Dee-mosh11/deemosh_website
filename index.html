@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deemosh Fragrance - Luxury Perfumes & Oils</title>
+    <!-- Google Fonts for Elegant Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+
+    <header class="header">
+        <div class="brand-container">
+            <div class="logo-container">
+                <img src="logo.png" alt="Deemosh Fragrance Logo" class="brand-logo">
+            </div>
+            <a href="index.html" class="brand-name">Deemosh</a>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="shop.html" class="nav-link">Shop</a>
+            <a href="links.html" class="nav-link"><i class="fas fa-share-nodes"></i></a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <p class="hero-subtitle">The Essence of Elegance</p>
+            <h1 class="hero-title">Elevate your senses.</h1>
+            <p class="hero-tagline">Experience affordable luxury with our meticulously crafted collection of perfumes, oils, mists, and diffusers.</p>
+            <a href="shop.html" class="btn btn-primary">Explore Collection</a>
+        </section>
+
+        <!-- Trust Statements -->
+        <section class="trust-section">
+            <div class="trust-item">
+                <i class="fas fa-gem"></i>
+                <span>Affordable Luxury</span>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-hourglass-half"></i>
+                <span>Long-Lasting</span>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-venus-mars"></i>
+                <span>Unisex Appeal</span>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="container">
+            <div class="section-header">
+                <h2 class="section-title">Shop by Category</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="categories-grid">
+                <a href="shop.html?category=bottles" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&q=80&w=600" alt="Bottles" class="category-image">
+                    <div class="category-overlay">
+                        <h3 class="category-title">Bottles</h3>
+                    </div>
+                </a>
+                <a href="shop.html?category=oils" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1629198688000-71f23e745b6e?auto=format&fit=crop&q=80&w=600" alt="Oils" class="category-image">
+                    <div class="category-overlay">
+                        <h3 class="category-title">Oils</h3>
+                    </div>
+                </a>
+                <a href="shop.html?category=mists" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&q=80&w=600" alt="Mists" class="category-image">
+                    <div class="category-overlay">
+                        <h3 class="category-title">Mists</h3>
+                    </div>
+                </a>
+                <a href="shop.html?category=diffusers" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1608528577891-eb055944f2e7?auto=format&fit=crop&q=80&w=600" alt="Diffusers" class="category-image">
+                    <div class="category-overlay">
+                        <h3 class="category-title">Diffusers</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section class="container" style="padding-top: 0;">
+            <div class="section-header">
+                <h2 class="section-title">Featured Scents</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div id="featured-grid" class="product-grid">
+                <!-- Products will be dynamically injected here by script.js -->
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="shop.html" class="btn btn-outline">View All Products</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="brand-name" style="color: var(--text-dark);">Deemosh Fragrance</h2>
+            <div class="social-links">
+                <a href="https://wa.me/message/ZA526QJGSLF7I1" target="_blank" class="social-link" title="Message on WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/d_eejarr?igsh=MWFwcGZvdHFydTllcg==" target="_blank" class="social-link" title="Follow on Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Deemosh Fragrance. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
